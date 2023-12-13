@@ -36,3 +36,26 @@ Archivo único
 ## Apariencia
 
 ![Alt text](https://github.com/jor6PS/DrawNmap/blob/main/Screenshots/drawnmap_vid.gif?raw=true "Estado actual")
+
+# Usage
+
+```
+1. Install Dependencies
+
+# poetry install
+# poetry shell
+
+1. Get Local IP Interface (MacOS)
+
+# ifconfig | grep "inet "
+
+2. Change range IP in Makefile
+
+3. Scan Local Network
+
+# make nmap_gen
+
+4. After scanning (it takes a while), run the command
+
+# make run
+```
